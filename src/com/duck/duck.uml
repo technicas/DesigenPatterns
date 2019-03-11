@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.duck</OriginalElement>
+  <nodes>
+    <node x="476.0" y="101.0">com.duck.Duck</node>
+    <node x="0.0" y="190.0">com.duck.FlyRocketPowered</node>
+    <node x="915.4017857142858" y="0.0">com.duck.QuackBehavior</node>
+    <node x="333.0" y="190.0">com.duck.FlyNoWay</node>
+    <node x="439.4017857142857" y="390.0">com.duck.MallardDuck</node>
+    <node x="644.0" y="390.0">com.duck.ModelDuck</node>
+    <node x="453.5" y="514.0">com.duck.Main</node>
+    <node x="974.0" y="190.0">com.duck.Squeak</node>
+    <node x="1139.0" y="190.0">com.duck.MuteQuack</node>
+    <node x="285.154901725791" y="-63.7622243528284">com.duck.FlyBehavior</node>
+    <node x="809.0" y="190.0">com.duck.Quack</node>
+    <node x="180.0" y="190.0">com.duck.FlyWithWings</node>
+  </nodes>
+  <notes>
+    <note x="609.5" y="12.0">
+      <node>com.duck.Duck</node>
+      <value>鸭子</value>
+      <edge>
+        <point x="0.0" y="-114.5" />
+        <point x="0.0" y="13.5" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="com.duck.Main" target="com.duck.FlyRocketPowered">
+      <point x="-61.33333333333337" y="-25.5" />
+      <point x="484.16666666666663" y="489.0" />
+      <point x="80.0" y="489.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.duck.ModelDuck" target="com.duck.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="719.5" y="350.0" />
+      <point x="710.75" y="350.0" />
+      <point x="78.25" y="114.5" />
+    </edge>
+    <edge source="com.duck.FlyWithWings" target="com.duck.FlyBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="246.5" y="81.0" />
+      <point x="315.0267857142857" y="81.0" />
+      <point x="-15.375" y="25.5" />
+    </edge>
+    <edge source="com.duck.Duck" target="com.duck.QuackBehavior">
+      <point x="104.33333333333337" y="-114.5" />
+      <point x="736.8333333333334" y="71.0" />
+      <point x="933.5267857142858" y="71.0" />
+      <point x="-54.375" y="25.5" />
+    </edge>
+    <edge source="com.duck.ModelDuck" target="com.duck.FlyNoWay">
+      <point x="-50.33333333333337" y="-37.0" />
+      <point x="669.1666666666666" y="350.0" />
+      <point x="394.5" y="350.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.duck.FlyNoWay" target="com.duck.FlyBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="394.5" y="81.0" />
+      <point x="345.7767857142857" y="81.0" />
+      <point x="15.375" y="25.5" />
+    </edge>
+    <edge source="com.duck.Squeak" target="com.duck.QuackBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="1046.5" y="81.0" />
+      <point x="1006.0267857142858" y="81.0" />
+      <point x="18.125" y="25.5" />
+    </edge>
+    <edge source="com.duck.MallardDuck" target="com.duck.FlyWithWings">
+      <point x="-52.33333333333337" y="-37.0" />
+      <point x="465.56845238095235" y="370.0" />
+      <point x="246.5" y="370.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.duck.MallardDuck" target="com.duck.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="517.9017857142858" y="370.0" />
+      <point x="554.25" y="370.0" />
+      <point x="-78.25" y="114.5" />
+    </edge>
+    <edge source="com.duck.ModelDuck" target="com.duck.Quack">
+      <point x="50.33333333333337" y="-37.0" />
+      <point x="769.8333333333334" y="370.0" />
+      <point x="917.75" y="370.0" />
+      <point x="36.25" y="25.5" />
+    </edge>
+    <edge source="com.duck.Main" target="com.duck.ModelDuck">
+      <point x="61.33333333333337" y="-25.5" />
+      <point x="606.8333333333334" y="489.0" />
+      <point x="719.5" y="489.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.duck.MallardDuck" target="com.duck.Quack">
+      <point x="52.33333333333337" y="-37.0" />
+      <point x="570.235119047619" y="360.0" />
+      <point x="845.25" y="360.0" />
+      <point x="-36.25" y="25.5" />
+    </edge>
+    <edge source="com.duck.Quack" target="com.duck.QuackBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="881.5" y="81.0" />
+      <point x="969.7767857142858" y="81.0" />
+      <point x="-18.125" y="25.5" />
+    </edge>
+    <edge source="com.duck.Duck" target="com.duck.FlyBehavior">
+      <point x="-104.33333333333326" y="-114.5" />
+      <point x="528.1666666666667" y="71.0" />
+      <point x="376.5267857142857" y="71.0" />
+      <point x="46.125" y="25.5" />
+    </edge>
+    <edge source="com.duck.Main" target="com.duck.MallardDuck">
+      <point x="0.0" y="-25.5" />
+      <point x="545.5" y="489.0" />
+      <point x="517.9017857142858" y="489.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.duck.MuteQuack" target="com.duck.QuackBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="1211.5" y="71.0" />
+      <point x="1042.2767857142858" y="71.0" />
+      <point x="54.375" y="25.5" />
+    </edge>
+    <edge source="com.duck.FlyRocketPowered" target="com.duck.FlyBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="80.0" y="71.0" />
+      <point x="284.2767857142857" y="71.0" />
+      <point x="-46.125" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7998466257668712" x="642.0" y="287.5" />
+  <SelectedNodes>
+    <node>com.duck.FlyBehavior</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

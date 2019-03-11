@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>designPrinciples.ISP</OriginalElement>
+  <nodes>
+    <node x="438.0" y="0.0">designPrinciples.ISP.InputModule</node>
+    <node x="190.0" y="145.0">designPrinciples.ISP.StuScoreList</node>
+    <node x="0.0" y="11.0">designPrinciples.ISP.CountModule</node>
+    <node x="0.0" y="462.0">designPrinciples.ISP.Main</node>
+    <node x="230.0" y="11.0">designPrinciples.ISP.PrintModule</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="designPrinciples.ISP.StuScoreList" target="designPrinciples.ISP.PrintModule">
+      <point x="0.0" y="-136.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="designPrinciples.ISP.StuScoreList" target="designPrinciples.ISP.CountModule">
+      <point x="-89.33333333333331" y="-136.0" />
+      <point x="234.66666666666669" y="120.0" />
+      <point x="105.0" y="120.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="designPrinciples.ISP.StuScoreList" target="designPrinciples.ISP.InputModule">
+      <point x="89.33333333333331" y="-136.0" />
+      <point x="413.3333333333333" y="120.0" />
+      <point x="513.0" y="120.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="416.5" y="302.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

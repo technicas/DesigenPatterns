@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>observer</OriginalElement>
+  <nodes>
+    <node x="161.625" y="269.0">observer.ConcreteSubject</node>
+    <node x="535.0" y="134.5">observer.ConcreteObserver2</node>
+    <node x="723.0" y="134.5">observer.ConcreteObserver1</node>
+    <node x="288.0" y="101.0">observer.Subject</node>
+    <node x="456.125" y="0.0">observer.Observer</node>
+  </nodes>
+  <notes>
+    <note x="0.0" y="121.0">
+      <node>observer.ConcreteSubject</node>
+      <value>for(Object obs: observers)\n{\n    ((Observer)obs).response();\n}</value>
+      <edge>
+        <point x="-50.0" y="-25.5" />
+        <point x="211.625" y="244.0" />
+        <point x="134.0" y="244.0" />
+        <point x="0.0" y="39.0" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="observer.ConcreteObserver2" target="observer.Observer">
+      <point x="0.0" y="-25.5" />
+      <point x="619.0" y="81.0" />
+      <point x="559.25" y="81.0" />
+      <point x="20.62500000000003" y="25.5" />
+    </edge>
+    <edge source="observer.ConcreteObserver1" target="observer.Observer">
+      <point x="0.0" y="-25.5" />
+      <point x="806.0" y="71.0" />
+      <point x="600.5" y="71.0" />
+      <point x="61.87500000000003" y="25.5" />
+    </edge>
+    <edge source="observer.Subject" target="observer.Observer">
+      <point x="56.75" y="-59.0" />
+      <point x="458.25" y="81.0" />
+      <point x="518.0" y="81.0" />
+      <point x="-20.625" y="25.5" />
+    </edge>
+    <edge source="observer.ConcreteSubject" target="observer.Subject">
+      <point x="50.0" y="-25.5" />
+      <point x="311.625" y="244.0" />
+      <point x="401.5" y="244.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="445.0" y="296.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>designPrinciples.CRP.comp</OriginalElement>
+  <nodes>
+    <node x="294.24999999999994" y="0.0">designPrinciples.CRP.comp.Color</node>
+    <node x="243.14285714285714" y="113.0">designPrinciples.CRP.comp.White</node>
+    <node x="161.0" y="226.0">designPrinciples.CRP.comp.MotorizedCar</node>
+    <node x="0.0" y="226.0">designPrinciples.CRP.comp.ElectricCar</node>
+    <node x="82.14285714285714" y="79.0">designPrinciples.CRP.comp.Car</node>
+    <node x="448.1428571428571" y="113.0">designPrinciples.CRP.comp.Red</node>
+    <node x="347.1428571428571" y="113.0">designPrinciples.CRP.comp.Black</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="designPrinciples.CRP.comp.MotorizedCar" target="designPrinciples.CRP.comp.Car">
+      <point x="0.0" y="-25.5" />
+      <point x="231.5" y="201.0" />
+      <point x="187.89285714285714" y="201.0" />
+      <point x="35.25" y="48.5" />
+    </edge>
+    <edge source="designPrinciples.CRP.comp.White" target="designPrinciples.CRP.comp.Color">
+      <point x="-5.6843418860808015E-14" y="-14.5" />
+      <point x="285.1428571428571" y="59.0" />
+      <point x="324.62499999999994" y="59.0" />
+      <point x="-10.125" y="14.5" />
+    </edge>
+    <edge source="designPrinciples.CRP.comp.Red" target="designPrinciples.CRP.comp.Color">
+      <point x="0.0" y="-14.5" />
+      <point x="483.6428571428571" y="49.0" />
+      <point x="365.12499999999994" y="49.0" />
+      <point x="30.375" y="14.5" />
+    </edge>
+    <edge source="designPrinciples.CRP.comp.Black" target="designPrinciples.CRP.comp.Color">
+      <point x="0.0" y="-14.5" />
+      <point x="387.6428571428571" y="59.0" />
+      <point x="344.87499999999994" y="59.0" />
+      <point x="10.125" y="14.5" />
+    </edge>
+    <edge source="designPrinciples.CRP.comp.ElectricCar" target="designPrinciples.CRP.comp.Car">
+      <point x="0.0" y="-25.5" />
+      <point x="70.5" y="201.0" />
+      <point x="117.39285714285714" y="201.0" />
+      <point x="-35.25" y="48.5" />
+    </edge>
+    <edge source="designPrinciples.CRP.comp.Car" target="designPrinciples.CRP.comp.Color">
+      <point x="0.0" y="-48.5" />
+      <point x="152.64285714285714" y="49.0" />
+      <point x="304.37499999999994" y="49.0" />
+      <point x="-30.375" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="255.5" y="144.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

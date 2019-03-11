@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>designPrinciples.DIP</OriginalElement>
+  <nodes>
+    <node x="166.0" y="202.0">designPrinciples.DIP.DIPTest</node>
+    <node x="159.0" y="101.0">designPrinciples.DIP.Customer</node>
+    <node x="188.5" y="0.0">designPrinciples.DIP.Shop</node>
+    <node x="0.0" y="101.0">designPrinciples.DIP.HenanShop</node>
+    <node x="377.0" y="101.0">designPrinciples.DIP.BeijingShop</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="designPrinciples.DIP.BeijingShop" target="designPrinciples.DIP.Shop">
+      <point x="0.0" y="-25.5" />
+      <point x="446.5" y="76.0" />
+      <point x="304.33333333333337" y="76.0" />
+      <point x="46.33333333333337" y="25.5" />
+    </edge>
+    <edge source="designPrinciples.DIP.HenanShop" target="designPrinciples.DIP.Shop">
+      <point x="0.0" y="-25.5" />
+      <point x="69.5" y="76.0" />
+      <point x="211.66666666666666" y="76.0" />
+      <point x="-46.33333333333334" y="25.5" />
+    </edge>
+    <edge source="designPrinciples.DIP.DIPTest" target="designPrinciples.DIP.BeijingShop">
+      <point x="69.0" y="-25.5" />
+      <point x="327.0" y="177.0" />
+      <point x="446.5" y="177.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="designPrinciples.DIP.DIPTest" target="designPrinciples.DIP.HenanShop">
+      <point x="-69.0" y="-25.5" />
+      <point x="189.0" y="177.0" />
+      <point x="69.5" y="177.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="designPrinciples.DIP.DIPTest" target="designPrinciples.DIP.Customer">
+      <point x="-23.0" y="-25.5" />
+      <point x="235.0" y="177.0" />
+      <point x="208.5" y="177.0" />
+      <point x="-49.5" y="25.5" />
+    </edge>
+    <edge source="designPrinciples.DIP.Customer" target="designPrinciples.DIP.Shop">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="258.0" y="126.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

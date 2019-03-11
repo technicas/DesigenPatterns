@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>designPrinciples.CRP.extend</OriginalElement>
+  <nodes>
+    <node x="417.81250000000006" y="111.0">designPrinciples.CRP.extend.Car</node>
+    <node x="171.39583333333337" y="235.0">designPrinciples.CRP.extend.ElectricCar</node>
+    <node x="0.0" y="336.0">designPrinciples.CRP.extend.WhiteElectricCar</node>
+    <node x="855.0" y="336.0">designPrinciples.CRP.extend.BlackMotorizedCar</node>
+    <node x="668.0" y="336.0">designPrinciples.CRP.extend.WhiteMotorizedCar</node>
+    <node x="679.3958333333334" y="235.0">designPrinciples.CRP.extend.MotorizedCar</node>
+    <node x="337.0" y="336.0">designPrinciples.CRP.extend.RedElectricCar</node>
+    <node x="170.0" y="336.0">designPrinciples.CRP.extend.BlackElectricCar</node>
+    <node x="494.0" y="336.0">designPrinciples.CRP.extend.RedMotorizedCar</node>
+  </nodes>
+  <notes>
+    <note x="759.5208333333334" y="134.5">
+      <node>designPrinciples.CRP.extend.MotorizedCar</node>
+      <value>机动汽车</value>
+      <edge>
+        <point x="35.25" y="-25.5" />
+        <point x="785.1458333333334" y="210.0" />
+        <point x="795.5208333333334" y="210.0" />
+        <point x="0.0" y="13.5" />
+      </edge>
+    </note>
+    <note x="322.31250000000006" y="0.0">
+      <node>designPrinciples.CRP.extend.Car</node>
+      <value>汽车分类管理程序\n继承方式实现合成复用，当增加新的动力类型或颜色时\n都要对源代码进行更改，违背了开闭原则</value>
+      <edge>
+        <point x="0.0" y="-37.0" />
+        <point x="0.0" y="30.5" />
+      </edge>
+    </note>
+    <note x="160.27083333333337" y="134.5">
+      <node>designPrinciples.CRP.extend.ElectricCar</node>
+      <value>电动汽车</value>
+      <edge>
+        <point x="-35.25" y="-25.5" />
+        <point x="206.64583333333337" y="210.0" />
+        <point x="196.27083333333337" y="210.0" />
+        <point x="0.0" y="13.5" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="designPrinciples.CRP.extend.MotorizedCar" target="designPrinciples.CRP.extend.Car">
+      <point x="-35.25" y="-25.5" />
+      <point x="714.6458333333334" y="210.0" />
+      <point x="523.5625" y="210.0" />
+      <point x="35.25" y="37.0" />
+    </edge>
+    <edge source="designPrinciples.CRP.extend.WhiteMotorizedCar" target="designPrinciples.CRP.extend.MotorizedCar">
+      <point x="0.0" y="-14.5" />
+      <point x="751.5" y="311.0" />
+      <point x="749.8958333333334" y="311.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="designPrinciples.CRP.extend.BlackElectricCar" target="designPrinciples.CRP.extend.ElectricCar">
+      <point x="0.0" y="-14.5" />
+      <point x="243.5" y="311.0" />
+      <point x="241.89583333333337" y="311.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="designPrinciples.CRP.extend.ElectricCar" target="designPrinciples.CRP.extend.Car">
+      <point x="35.25" y="-25.5" />
+      <point x="277.14583333333337" y="210.0" />
+      <point x="453.06250000000006" y="210.0" />
+      <point x="-35.25" y="37.0" />
+    </edge>
+    <edge source="designPrinciples.CRP.extend.WhiteElectricCar" target="designPrinciples.CRP.extend.ElectricCar">
+      <point x="0.0" y="-14.5" />
+      <point x="75.0" y="311.0" />
+      <point x="194.89583333333337" y="311.0" />
+      <point x="-47.0" y="25.5" />
+    </edge>
+    <edge source="designPrinciples.CRP.extend.RedMotorizedCar" target="designPrinciples.CRP.extend.MotorizedCar">
+      <point x="5.6843418860808015E-14" y="-14.5" />
+      <point x="571.0000000000001" y="311.0" />
+      <point x="702.8958333333334" y="311.0" />
+      <point x="-47.0" y="25.5" />
+    </edge>
+    <edge source="designPrinciples.CRP.extend.RedElectricCar" target="designPrinciples.CRP.extend.ElectricCar">
+      <point x="0.0" y="-14.5" />
+      <point x="405.5" y="311.0" />
+      <point x="288.89583333333337" y="311.0" />
+      <point x="47.0" y="25.5" />
+    </edge>
+    <edge source="designPrinciples.CRP.extend.BlackMotorizedCar" target="designPrinciples.CRP.extend.MotorizedCar">
+      <point x="0.0" y="-14.5" />
+      <point x="937.0" y="311.0" />
+      <point x="796.8958333333334" y="311.0" />
+      <point x="47.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="509.5" y="182.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
